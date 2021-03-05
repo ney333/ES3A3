@@ -45,6 +45,9 @@ public Double valorTotal(){
    for(Item item : itens){
    valorTotal += item.getValor();
    }
+    public void addItem(Item item) {
+        this.itens.add(item);
+    }
    return valorTotal;
    }
 }
