@@ -2,9 +2,9 @@ import java.util.LocalDate;
 
 public class Main {
     public static void main(String[] args) {
-        Produto prod1 = new Produto("notebook", 2000.0);
-        Produto prod2 = new Produto("celular", 1500.0);
-        Produto prod3 = new Produto("televisão", 5000.0);
+        Produto prod1 = new Produto("celular", 1200.0);
+        Produto prod2 = new Produto("geladeira", 4000.0);
+        Produto prod3 = new Produto("fogão", 2000.0);
 
         Venda venda1 = new Venda(01);
         Venda venda2 = new Venda(02);
@@ -21,7 +21,7 @@ public class Main {
         venda2.addItem(item3);
 
         double totalVenda1 = venda1.valorTotal();
-        System.out.println("Total a pagar: " + totalVenda1);
+        System.out.println("Total:R$ " + totalVenda1);
 
         double totalVenda2 = venda1.valorTotal();
 
